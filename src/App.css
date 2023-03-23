@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  min-width: 20%;
+}
+
+.header {
+  margin: 20px 0px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field-button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.confirm-button {
+  margin: 10px 20px;
+  min-width: 75px;
+  min-height: 30px;
+}
+
+.select-input {
+  min-height: 40px;
+}
